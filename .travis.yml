@@ -11,7 +11,6 @@ install:
 # command to run tests
 script:
   - coverage run --source=makehtml setup.py test
-  - coverage report -m
 # commands to run setup file
 # commands to run some style (pep8, pylint) tests on
 # the package
